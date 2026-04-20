@@ -1,0 +1,292 @@
+special {
+    color: #1f6feb;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+ar {
+    color: #1f6feb;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+::selection {
+    background-color: #1f6feb;
+    color: #F5F7FA;
+}
+html {
+    scroll-behavior: smooth;
+}
+head h1 {
+    color: #1f6feb;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+h1 {
+    color: #E5E7EB;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+#head2 {
+    color: #E5E7EB;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px !important;
+}
+body {
+    background-color: #0a073b;
+    color: #F5F7FA;
+}
+p{
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Golos Text", sans-serif;
+    font-size: 15px;
+}
+
+th {
+    font-size: 21px;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #1f6feb; 
+    padding: 12px 16px;
+    border-bottom: 1px solid #e5e7eb;
+}
+tr {
+    transition: background 0.15s ease;
+}
+tr:hover {
+    background-color: #231f5c;
+    cursor: pointer;
+}
+td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #f1f5f9;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+}
+button {
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+a {
+    color: #1f6feb;
+    text-decoration: none;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+a:hover {
+    text-decoration: underline;
+}
+#messages, #ot, .messages {
+    border: 1px solid #1e1b52;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #1e1b52;
+    max-width: 1500px;
+    margin: auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+input,
+select,
+textarea {
+    margin-top: 6px;
+    padding: 12px;
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    border-radius: 12px;
+    color: #E5E7EB;
+    border: 1px solid #1f6feb;
+    background-color: #1f6feb;
+}
+textarea {
+    resize: vertical;
+    min-height: 20px;
+}
+input:hover{
+    background-color: #E5E7EB;
+    color: #1f6feb;
+    transition-duration: 0.35s;
+}
+#navbar {
+    display: flex;
+    flex-direction: row;
+}
+#pbox {
+    border: 1px solid #1f6feb;
+    color: #E5E7EB;
+    background-color: #1f6feb;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: fit-content;
+}
+#navb {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #E5E7EB;
+    color: #E5E7EB;
+    background-color: #1f6feb;
+    border-radius: 10px;
+    padding: 10px;
+}
+#navb:hover {
+    border: 1px solid #E5E7EB;
+    color: #1f6feb;
+    background-color: #E5E7EB;
+    transition-duration: 0.35s;
+}
+#boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#creditbar {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ibox {
+    margin-right: 10px;
+    border: 1px solid #1f6feb;
+    background-color:  #1f6feb;
+    width: 25%;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+#ibox h1 {
+    border: 1px solid #1f6feb;
+    color: #E5E7EB  !important;
+    background-color: #1f6feb;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 10px;
+}
+#rbox {
+    margin-right: 10px;
+    border: 1px solid #f43c3c;
+    background-color:  #f43c3c;
+    width: 25%;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+#rbox h1 {
+    border: 1px solid #f43c3c;
+    color: #E5E7EB  !important;
+    background-color: #f43c3c;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 10px;
+}
+#gbox {
+    margin-right: 10px;
+    border: 1px solid #2fc240;
+    background-color:  #2fc240;
+    width: 25%;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+#gbox h1 {
+    border: 1px solid #2fc240;
+    color: #E5E7EB  !important;
+    background-color: #2fc240;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 10px;
+}
+input[type="radio"] {
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+    accent-color:#1f6feb;
+}
+.radio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+#container {
+    display: flex;
+}
+
+#left {
+    width: 50%;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+#right {
+    width: 50%;
+    padding: 10px;
+}
