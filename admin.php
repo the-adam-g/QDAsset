@@ -1,7 +1,7 @@
 <?php
 session_start();
 include "config.php";
-include 'cmode.php';
+include 'acmode.php';
 if (isset($_SESSION['login'])) {
     $id = $_SESSION['user_id'];
     $name = $_SESSION['name'];

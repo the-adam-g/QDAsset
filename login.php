@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login to QueueDesk as an Staff</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="light.css">
+    <link rel="stylesheet" href="ar.css">
     <meta property="og:title" content="QueueDesk">
     <meta property="og:description" content="Login to QueueDesk as Staff">
     <?php $pageURL = SITEURL . ltrim($_SERVER['REQUEST_URI'], '/');?>
