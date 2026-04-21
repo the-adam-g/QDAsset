@@ -1,8 +1,8 @@
 <?php
 
-$db_host = 'localhost';
-$db_name = 'queuedeskv2';
-$db_user = 'root';
+$db_host = '';
+$db_name = '';
+$db_user = '';
 $db_password = '';
 
 //These are the default passwords and we recommend that you change these

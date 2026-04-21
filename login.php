@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $_SESSION['user_id'] = $user['id'];
                     $_SESSION['role'] = $role;
                     $_SESSION['csrf'] = bin2hex(random_bytes(32));
-                    header('Location: dash.php');
+                    header('Location: assetregister.php');
                     exit();
                 } else {
                     $role = 'technician';
@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $_SESSION['user_id'] = $user['id'];
                     $_SESSION['role'] = $role;
                     $_SESSION['csrf'] = bin2hex(random_bytes(32));
-                    header('Location: dash.php');
+                    header('Location: assetregister.php');
                     exit();
                 }
             } else {
@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['role'] = $user['role'];
             $_SESSION['csrf'] = bin2hex(random_bytes(32));
-            header('Location: dash.php');
+            header('Location: assetregister.php');
             exit();
         }
     }

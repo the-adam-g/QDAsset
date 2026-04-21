@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+include 'config.php';
 if (isset($_SESSION['user_id'])) {
     header('Location: dash.php');
     exit();
@@ -27,21 +27,19 @@ if (isset($_SESSION['user_id'])) {
 </head>
 <body>
     <section id="head">
-        <h1>Queue<special>Desk - IT made simple.</special></h1>
+        <h1>QD<special>Asset</special> - Inventory made simple.</h1>
     </section>
     <section id="messages">
-        <h1>What is Queue<special>Desk</special> ?</h1>
+        <h1>What is QD<special>Asset</special> ?</h1>
         <hr>
-        <p>Queue<special>Desk</special> is a lightweight ticket management system designed to be easy to use for both new and experienced IT technicians.</p>
+        <p>QD<special>Asset</special> is a lightweight asset management system designed to be easy to use for both new and experienced users.</p>
     </section>
     <br> 
     <section id="messages">
         <a href="login.php"><p>Login/Register as staff</p></a>
-        <p></p>
-        <a href="ticket.php"><p>Create a ticket</p></a>
     </section>
     <br><br>
     <div id="creditbar">
-        <p>Queue<special>Desk</special> was created by Adam Gillion</p>
+        <p>QD<special>Asset</special> was created by Adam Gillion</p>
     </div>
 </body>

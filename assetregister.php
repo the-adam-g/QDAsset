@@ -103,10 +103,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <section id="messages">
         <h1>Queue<special>Desk</special> <ar>Asset Register</ar></h1>
         <h1 id="head2"><?php echo 'Welcome <special>' . $role . "</special> " . $name;?></special></h1>
-        <div id="navbar">
-            <a id="navb" href="dash.php">Return to QueueDesk Core</a>
-        </div>
-        <br>
         <script src="JsBarcode.all.min.js"></script>
         <script src="html2pdf.js"></script>
         <div id="content">
